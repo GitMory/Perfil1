@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Perfil</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    .container {
+      text-align: center;
+      padding: 50px;
+      color: rgb(0, 0, 0);
+      vertical-align: middle;
+    }
+    
+    .rounded-border {
+      border-radius: 10px;
+    }
+    
+    .navbar-brand {
+      font-weight: bold;
+    }
+    
+    .nav-link {
+      font-weight: bold;
+      margin-right: 10px;
+      /*border-bottom: 2px rgb(49, 49, 49) solid;*/
+    }
+
+    .navbott {
+        border-bottom: 3px rgb(62, 137, 250) solid;
+    }
+    
+    h1 {
+      margin-top: 20px;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .back {
+        background-image: url("https://img.freepik.com/vector-premium/fondo-abstracto-patrones-fisuras-uso-estilo-futurista-portada-negocios-banner_7505-1820.jpg");
+        background-attachment: fixed; 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .divpanel {
+        /*background-color: rgba(150, 150, 150, 0.308);*/
+        border-radius: 10px ;      
+        text-align: center ;
+        height: 600px;
+        width: 300px;
+        padding-top: 90px;
+    }
+    .titulo{
+        font-size: 70px;
+        font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .titulo2 {
+        font-size: 70px;
+        color: rgb(62, 137, 250);    
+        Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    }
+    .titulo3 {
+        font-size: 30px;
+        color: rgb(0, 0, 0);    
+        Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    }
+    .foto{
+        margin: 30px;
+        /*background-color: aquamarine;*/
+    }
+
+    td.top {
+        vertical-align: top;
+    }
+    td.mid {
+        vertical-align: middle;
+    }
+    td.bot {
+        vertical-align: bottom;
+    }
+
+  </style>
+</head>
+<body class="back">
+  <nav class="navbar navbar-expand-md navbar-light bg-white navbott">
+    <a class="navbar-brand" href="#"><img src="https://logosbynick.com/wp-content/uploads/2018/03/final-logo-example.png" alt="Logo" width="260" height="60"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="navbott"></div>
+  
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6 divpanel">
+        <div class="rounded-border">
+          <h1 class="titulo">Hi There,</h1>
+          <h1 class="titulo2">I'm Jigar Sable</h1>
+          <p class="titulo3">Hello, I am a programmer</p>
+          <div class="social-icons">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="Social Icon 1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" alt="Social Icon 2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="Social Icon 3">
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6" >
+        <img class="foto" src="https://cdn-icons-png.flaticon.com/512/147/147144.png" alt="Photo">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
